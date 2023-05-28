@@ -24,7 +24,7 @@ const Input : React.FC<InputProps> = ({
           block
           rounded-md
           px-6
-          pt-6
+          pt-8
           pb-1
           w-full
           text-md
@@ -34,6 +34,7 @@ const Input : React.FC<InputProps> = ({
           focus:outline-none
           focus:ring-0
           peer
+          invalid:border-b-1
         '
         placeholder=' '
       />
